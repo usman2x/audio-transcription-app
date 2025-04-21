@@ -1,0 +1,16 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .transcription-box {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    height: 200px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    white-space: pre-wrap; /* Preserve new lines and wrap text */
+    font-family: monospace; /* Use a monospace font for better readability */
+  }
